@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sty{body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.chat-box {
+    padding: 20px;
+    height: 400px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-bottom: 1px solid #ddd;
+}
+
+.message {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
+.bot-message {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    align-self: flex-start;
+}
+
+.user-message {
+    background-color: #c3e6cb;
+    color: #155724;
+    align-self: flex-end;
+}
+
+input {
+    width: 75%;
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #ddd;
+    font-size: 16px;
+    border-radius: 0;
+}
+
+button {
+    width: 25%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+
+}
+
+.chat-container {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.chat-box {
+    padding: 20px;
+    height: 400px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-bottom: 1px solid #ddd;
+}
+
+.message {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
+.bot-message {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    align-self: flex-start;
+}
+
+.user-message {
+    background-color: #c3e6cb;
+    color: #155724;
+    align-self: flex-end;
+}
+
+input {
+    width: 75%;
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #ddd;
+    font-size: 16px;
+    border-radius: 0;
+}
+
+button {
+    width: 25%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
